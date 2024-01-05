@@ -46,7 +46,7 @@ function ListPost() {
 
   return (
     <>
-     {
+    {
       !isLoading?
       <div>
             {allPosts&&

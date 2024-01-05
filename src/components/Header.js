@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 const Header = () => {
     const navigate = useNavigate()
   return (
-      <div className=' m-1 p-1 bg-white md:m-7 md:p-3 flex rounded-lg'>
+      <div className='shadow-md m-1 p-1 bg-white md:m-7 md:p-3 flex rounded-lg'>
         <div className='pr-2 text-4xl md:text-5xl'>
           <MdAccountCircle/>
         </div>

@@ -6,7 +6,7 @@ const SideBar = ({line1, line2}) => {
     const navigate = useNavigate()
     const title = line1 || "Home"
   return (
-    <div className='p-1 mx-1 my-7 mt-12 md:p-7 bg-white md:mx-5 rounded-lg space-y-4'>
+    <div className='shadow-md p-1 mx-1 my-7 mt-12 md:p-7 bg-white md:mx-5 rounded-lg space-y-4'>
 
       <div className='flex space-y-4'>
 

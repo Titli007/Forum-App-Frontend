@@ -26,7 +26,7 @@ const Nav = () => {
 
   return (
     <>
-      <div className='top-0 left-0 flex sticky md:top-0 bg-white md:z-10 justify-around space-y-3' >
+      <div className='shadow-lg top-0 left-0 flex sticky md:top-0 bg-white md:z-10 justify-around space-y-3' >
         <div className='w-16 h-16' onClick={() => navigate('/')}>
           <Icon />
         </div>

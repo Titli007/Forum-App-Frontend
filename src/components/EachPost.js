@@ -22,7 +22,7 @@ const EachPost = ({post}) => {
 
   return (
     // <div className='w-full'>
-      <div className='p-2 m-2 bg-white md:m-7 md:p-5 rounded-lg' >
+      <div className='shadow-md p-2 m-2 bg-white md:m-7 md:p-5 rounded-lg' >
         <div onClick={()=> navigate(`/post/${post.id}`)}>
         {User&&
               <>
