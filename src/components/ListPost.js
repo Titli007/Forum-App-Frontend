@@ -46,8 +46,9 @@ function ListPost() {
 
   return (
     <>
-      <Suspense fallback={<Loading />}>
-        <div>
+     {
+      !isLoading?
+      <div>
             {allPosts&&
                 allPosts.map((post,index)=>{
                     return(
@@ -57,7 +58,9 @@ function ListPost() {
             }
     
         </div>
-      </Suspense>
+        :
+        <Loading/>
+    }
     </>
   )
 }
